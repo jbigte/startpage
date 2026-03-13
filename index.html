@@ -6,96 +6,106 @@
 <title>Start</title>
 
 <style>
+
 body{
   margin:0;
-  padding:25px;
-  background:#111;
-  font-family:-apple-system,BlinkMacSystemFont,sans-serif;
+  background:#0f0f10;
+  font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  display:flex;
+  justify-content:center;
+}
+
+.wrapper{
+  max-width:900px;
+  padding:40px 20px;
 }
 
 .grid{
   display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(120px,1fr));
-  gap:18px;
+  grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+  gap:24px;
 }
 
 .tile{
-  background:#1c1c1c;
-  border-radius:14px;
-  padding:18px 10px;
+  background:#1b1b1d;
+  border-radius:20px;
+  padding:24px 10px;
   text-align:center;
   text-decoration:none;
   color:white;
-  transition:transform .05s ease, background .1s ease;
+  box-shadow:0 6px 16px rgba(0,0,0,0.35);
+  transition:transform .08s ease, background .12s ease;
 }
 
 .tile:active{
-  transform:scale(.96);
-  background:#2a2a2a;
+  transform:scale(.94);
+  background:#2a2a2c;
 }
 
 .tile img{
-  width:48px;
-  height:48px;
-  margin-bottom:8px;
+  width:64px;
+  height:64px;
+  margin-bottom:12px;
 }
 
 .label{
-  font-size:14px;
-  line-height:1.2;
+  font-size:15px;
 }
+
 </style>
 </head>
 
 <body>
 
+<div class="wrapper">
 <div class="grid">
 
 <a class="tile" href="https://swissinfo.ch">
-<img src="https://www.google.com/s2/favicons?sz=128&domain=swissinfo.ch">
+<img src="https://icons.duckduckgo.com/ip3/swissinfo.ch.ico">
 <div class="label">Swissinfo</div>
 </a>
 
 <a class="tile" href="https://kottke.org">
-<img src="https://www.google.com/s2/favicons?sz=128&domain=kottke.org">
+<img src="https://icons.duckduckgo.com/ip3/kottke.org.ico">
 <div class="label">Kottke</div>
 </a>
 
 <a class="tile" href="https://austinkleon.com">
-<img src="https://www.google.com/s2/favicons?sz=128&domain=austinkleon.com">
+<img src="https://icons.duckduckgo.com/ip3/austinkleon.com.ico">
 <div class="label">Austin Kleon</div>
 </a>
 
 <a class="tile" href="https://www.laphamsquarterly.org">
-<img src="https://www.google.com/s2/favicons?sz=128&domain=laphamsquarterly.org">
+<img src="https://icons.duckduckgo.com/ip3/laphamsquarterly.org.ico">
 <div class="label">Lapham's Quarterly</div>
 </a>
 
 <a class="tile" href="https://www.mcsweeneys.net">
-<img src="https://www.google.com/s2/favicons?sz=128&domain=mcsweeneys.net">
+<img src="https://icons.duckduckgo.com/ip3/mcsweeneys.net.ico">
 <div class="label">McSweeney's</div>
 </a>
 
 <a class="tile" href="https://www.aldaily.com">
-<img src="https://www.google.com/s2/favicons?sz=128&domain=aldaily.com">
-<div class="label">Arts & Letters Daily</div>
+<img src="https://icons.duckduckgo.com/ip3/aldaily.com.ico">
+<div class="label">Arts & Letters</div>
 </a>
 
 <a class="tile" href="https://www.npr.org">
-<img src="https://www.google.com/s2/favicons?sz=128&domain=npr.org">
+<img src="https://icons.duckduckgo.com/ip3/npr.org.ico">
 <div class="label">NPR</div>
 </a>
 
 <a class="tile" href="https://www.cbc.ca">
-<img src="https://www.google.com/s2/favicons?sz=128&domain=cbc.ca">
+<img src="https://icons.duckduckgo.com/ip3/cbc.ca.ico">
 <div class="label">CBC</div>
 </a>
 
 <a class="tile" href="https://www.meteosuisse.ch">
-<img src="https://www.google.com/s2/favicons?sz=128&domain=meteosuisse.ch">
+<img src="https://icons.duckduckgo.com/ip3/meteosuisse.ch.ico">
 <div class="label">MeteoSwiss</div>
 </a>
 
+</div>
 </div>
 
 </body>
