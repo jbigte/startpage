@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Start</title>
+
+<style>
+body{
+  margin:0;
+  padding:25px;
+  background:#111;
+  font-family:-apple-system,BlinkMacSystemFont,sans-serif;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(120px,1fr));
+  gap:18px;
+}
+
+.tile{
+  background:#1c1c1c;
+  border-radius:14px;
+  padding:18px 10px;
+  text-align:center;
+  text-decoration:none;
+  color:white;
+  transition:transform .05s ease, background .1s ease;
+}
+
+.tile:active{
+  transform:scale(.96);
+  background:#2a2a2a;
+}
+
+.tile img{
+  width:48px;
+  height:48px;
+  margin-bottom:8px;
+}
+
+.label{
+  font-size:14px;
+  line-height:1.2;
+}
+</style>
+</head>
+
+<body>
+
+<div class="grid">
+
+<a class="tile" href="https://swissinfo.ch">
+<img src="https://www.google.com/s2/favicons?sz=128&domain=swissinfo.ch">
+<div class="label">Swissinfo</div>
+</a>
+
+<a class="tile" href="https://kottke.org">
+<img src="https://www.google.com/s2/favicons?sz=128&domain=kottke.org">
+<div class="label">Kottke</div>
+</a>
+
+<a class="tile" href="https://austinkleon.com">
+<img src="https://www.google.com/s2/favicons?sz=128&domain=austinkleon.com">
+<div class="label">Austin Kleon</div>
+</a>
+
+<a class="tile" href="https://www.laphamsquarterly.org">
+<img src="https://www.google.com/s2/favicons?sz=128&domain=laphamsquarterly.org">
+<div class="label">Lapham's Quarterly</div>
+</a>
+
+<a class="tile" href="https://www.mcsweeneys.net">
+<img src="https://www.google.com/s2/favicons?sz=128&domain=mcsweeneys.net">
+<div class="label">McSweeney's</div>
+</a>
+
+<a class="tile" href="https://www.aldaily.com">
+<img src="https://www.google.com/s2/favicons?sz=128&domain=aldaily.com">
+<div class="label">Arts & Letters Daily</div>
+</a>
+
+<a class="tile" href="https://www.npr.org">
+<img src="https://www.google.com/s2/favicons?sz=128&domain=npr.org">
+<div class="label">NPR</div>
+</a>
+
+<a class="tile" href="https://www.cbc.ca">
+<img src="https://www.google.com/s2/favicons?sz=128&domain=cbc.ca">
+<div class="label">CBC</div>
+</a>
+
+<a class="tile" href="https://www.meteosuisse.ch">
+<img src="https://www.google.com/s2/favicons?sz=128&domain=meteosuisse.ch">
+<div class="label">MeteoSwiss</div>
+</a>
+
+</div>
+
+</body>
+</html>
