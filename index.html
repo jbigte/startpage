@@ -36,6 +36,11 @@ body{
   transition:transform .08s ease, background .12s ease;
 }
 
+/* Inverts the McSweeney's icon specifically */
+.tile[href*="mcsweeneys.net"] img {
+  filter: invert(1);
+}
+
 .tile:active{
   transform:scale(.95);
   background:#2a2a2c;
